@@ -1,0 +1,16 @@
+{
+  "name": "code-coverage-from-v8-demo",
+  "version": "1.0.0",
+  "description": "demo for getting code coverage from v8",
+  "scripts": {
+    "coverage": "NODE_V8_COVERAGE=coverage c8 node src/main.js foo=bar",
+    "clean": "rm -rf coverage",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kuldeepkeshwar@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "c8": "^3.2.0"
+  }
+}
