@@ -6,7 +6,7 @@
 3. Run `npm run coverage`
 
 ### Explanation
-* To extract coverage, all you need to do is to set environment variable `NODE_V8_COVERAGE` & Node.js will begin outputting [V8 JavaScript code coverage](https://v8.dev/blog/javascript-code-coverage) to the directory provided as an argument.
+* To extract coverage, all you need to do is to set environment variable `NODE_V8_COVERAGE` & Node.js will begin outputting V8 JavaScript code coverage to the directory provided as an argument.
 
     e.g `NODE_V8_COVERAGE=coverage node src/main.js`
 
